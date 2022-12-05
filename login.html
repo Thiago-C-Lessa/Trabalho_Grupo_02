@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo-login.css">
+    <link rel="icon" href="img/favicon_io/favicon.ico">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@700;800&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+    <script src="js/script-login.js"></script>
+    <title>Login</title>
+
+</head>
+<body>
+
+    <!--header-->
+    <div class="header">
+        <div class="home">
+            <h1><a href="https://fdscamilla.github.io/the-frontenders/">cibus</a></h1>
+        </div>
+
+        <div class="menu">
+            <a href="planos.html">Planos</a>
+            <a href="contato.html">Contato</a>
+            <a href="login.html">Login</a>
+        </div>
+
+    </div>
+
+    <!--center-->
+    <div class="center">
+        <form>
+            <h2>Faça seu Login</h2>
+
+            <label for="email">E-mail</label>
+
+            
+            <input type="text" name="email" onblur="validacaoEmail(email)"  maxlength="60" size='65' class="input-padrao" required placeholder="Insira seu E-mail">
+            <div id="msgemail"></div>
+
+            <label for="senha">Senha</label>
+            <input type="password" id="senha" class="input-padrao" required placeholder="Insira sua senha" id="senha"/>
+
+            <h4 id="recover-password"><a href="recuperacao-senha.html">Esqueci a senha</a></h4>
+
+            <input type="submit" name="acao" value="Entrar"/>
+
+                <div class="alternative">
+                    <span>OU</span>
+                </div>
+            
+                
+                <div class="midia">
+                    <a href="https://pt-br.facebook.com/">
+                        <img src="img/facebook.png" alt="Facebook">
+                    </a>
+            
+                    <a href="https://www.google.com/intl/pt-BR/account/about/">
+                        <img src="img/Google.png" alt="Google">
+                    </a>
+            
+                    <a href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoicHQifQ%3D%3D%22%7D">
+                        <img src="img/twitter.png" alt="Twitter">
+                    </a>
+                </div>
+                
+        </form>
+    </div>
+
+
+    <!--footer-->
+    <div class="footer">
+
+        <div class="cibus">
+            <h3>Cibus</h3>
+            <a href="">Cardápios</a>
+            <a href="">Receitas</a>
+            <a href="">Entrega</a>
+            <a href="">Blog</a>
+        </div>
+
+        <div class="quem-somos">
+            <h3>Quem somos</h3>
+            <a href="">Valores</a>
+            <a href="">Equipe</a>
+            <a href="">Fornecedores</a>
+        </div>
+
+        <div class="trabalhe-conosco">
+            <h3>Trabalhe conosco</h3>
+            <a href="">Seja um parceiro</a>
+            <a href="">Seja um consultor</a>
+            <a href="">Carreiras</a>
+        </div>
+
+        <div class="contato">
+            <h3>Contato</h3>
+            <a href="">Perguntas frequentes</a>
+            <a href="">Entre em contato</a>
+        </div>
+
+        <div class="redes">
+            <h3>Siga as nossas redes</h3>
+            
+            <div class="icones">
+                <a href=""><img src="img/instagram.png" alt=""></a>
+                <a href=""><img src="img/youtube.png" alt=""></a>
+                <a href=""><img src="img/tik-tok.png" alt=""></a>
+                <a href=""><img src="img/twitter.png" alt=""></a>
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+</html>
